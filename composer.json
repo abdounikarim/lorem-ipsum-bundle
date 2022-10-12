@@ -1,0 +1,33 @@
+{
+    "name": "abdounikarim/lorem-ipsum-bundle",
+    "description": "Happy lorem ipsum",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Weaver",
+            "email": "ryan@knpuniversity.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KnpU\\LoremIpsumBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KnpU\\LoremIpsumBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/config": "5.4 || ^6.0",
+        "symfony/dependency-injection": "5.4 || ^6.0",
+        "symfony/http-kernel": "5.4 || ^6.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "5.4 || ^6.0",
+        "symfony/browser-kit": "5.4 || ^6.0",
+        "symfony/framework-bundle": "5.4 || ^6.0"
+    }
+}
